@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export default function HybridApp() {
+export default function App() {
     return (
         <Provider store={store}>
             <View style={styles.container}>
