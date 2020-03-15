@@ -17,10 +17,12 @@
     "android": "expo start --android",
     "build": "webpack --mode=production",
     "build-dev": "webpack --mode=development",
+    "cover": "./node_modules/.bin/jest . --coverage",
     "eject": "expo eject",
     "ios": "expo start --ios",
     "lint": "./node_modules/.bin/eslint .",
     "start": "expo start",
+    "test": "./node_modules/.bin/jest .",
     "web": "nodemon"
   },
   "dependencies": {
@@ -49,6 +51,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
